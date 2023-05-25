@@ -1,0 +1,112 @@
+/* App.css */
+body {
+  margin: 28px;
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
+  /* background-image: url("https://s35691.pcdn.co/wp-content/uploads/2019/03/time-management-flipped-classroom-190325.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background-color: black;
+}
+.color{
+  background-image: linear-gradient(110deg, hotpink, sandybrown, gold);
+}
+.list-items {
+  display:  flex;
+  justify-content:space-between; 
+  margin-top: 4rem;
+  padding-bottom: 1rem
+}
+@media screen and (max-width: 1100px) {
+  .list-items {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+h3, p{
+  color: navy;
+}
+.list124, .list123{
+  font-size: 20px;
+}
+.list124:hover{
+  background-color: black;
+    color: white;
+}
+textarea:hover{
+  background-color: moccasin;
+}
+input:hover{
+  background-color: moccasin;
+}
+
+.list123:hover{
+  background-color: paleturquoise;;
+  font-size: 20px;
+}
+.task-list {
+  /* max-height: 300px; 
+  overflow-y: auto;
+  margin-bottom: 20px; */
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  padding: 20px;
+background-color: blanchedalmond;
+border-radius: 20px;
+}
+
+
+
+form{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: cadetblue;
+    font-size: 23px;
+}
+
+
+
+button{
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+font-size: 20px;
+background-color: salmon;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+/* .taskdisplay{
+  /* padding-left: 23rem; */
+
+
+.delete:hover {
+  background-color: red;
+  color: white;
+
+}
+
